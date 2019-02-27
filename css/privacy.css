@@ -1,0 +1,25 @@
+@charset "utf-8";
+.pp {
+	font-size: 20px;
+	text-align: center;
+	padding: 25px 0px 2px 0px;
+	margin-top: 85px;
+	font-family: MoonLight, SourceSansProLight, SourceSansProRegular, serif;
+	border-bottom: 2px solid #96CF82;
+	width: 500px;
+	color: rgba(128,128,128,0.95);
+}
+.pp2 {
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	font-family: SourceSansProLight, SourceSansProRegular, serif;
+	color: rgba(128,128,128,0.95);
+}
+
+.pp3 {
+	width: 65%;
+	margin: auto;
+	padding: 10px 0px 25px 0px;
+	font-family: SourceSansProLight, SourceSansProRegular, serif;
+	color: rgba(128,128,128,0.95);
+}

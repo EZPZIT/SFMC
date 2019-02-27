@@ -1,0 +1,39 @@
+@charset "utf-8";
+.box {
+	height: 500px;
+	width: 1440px;
+	margin: auto;
+	margin-top: 85px;
+	margin-bottom: 85px;
+}
+.allcontact {
+	float: right;
+	width: 250px;
+	height: auto;
+	margin: 85px 15px 85px 15px;
+	padding: 40px;
+	background: rgba(230,230,230,0.70);
+	border-radius: 40px;
+	text-align: center;
+	font-family: SourceSansProBold;
+	color: rgba(128,128,128,1.00);
+	font-size: .8em;
+}
+.boxcol {
+	padding: 10px;
+	width: 200px;
+	margin: auto;
+	background: rgba(128,128,128,.70);
+	border-radius: 25px;
+}
+.boxcol > h2 {
+	color: white;
+}
+.boxcol > p {
+	font-size: 1.5em;
+	color: rgba(5,87,50,0.70);
+}
+.allcontact > address {
+	font-size: 1.3em;
+	color: rgba(5,87,50,0.70);
+}

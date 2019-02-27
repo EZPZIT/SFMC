@@ -1,0 +1,155 @@
+%!Adobe-FontList 1.19
+%Locale:0xc09
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Moon-Bold
+FamilyName:Moon
+StyleName:Bold
+FullName:Moon Bold
+MenuName:Moon
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\Moon Bold.otf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:25144
+FileModTime:1549402090
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Moon Bold
+NameArray:0,Win,1,Moon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Moon-Light
+FamilyName:Moon
+StyleName:Light
+FullName:Moon Light
+MenuName:Moon
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\Moon Light.otf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:24216
+FileModTime:1549402090
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Moon Light
+NameArray:0,Win,1,Moon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Bold
+FamilyName:Source Sans Pro
+StyleName:Bold
+FullName:Source Sans Pro Bold
+MenuName:Source Sans Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\SourceSansPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:129212
+FileModTime:1549402090
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Bold
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Light
+FamilyName:Source Sans Pro
+StyleName:Light
+FullName:Source Sans Pro Light
+MenuName:Source Sans Pro Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\SourceSansPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:124476
+FileModTime:1549402090
+WeightClass:300
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Light
+NameArray:0,Win,1,Source Sans Pro Light
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+FullName:Source Sans Pro
+MenuName:Source Sans Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\SourceSansPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127448
+FileModTime:1549402090
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Semibold
+FamilyName:Source Sans Pro
+StyleName:Semibold
+FullName:Source Sans Pro Semibold
+MenuName:Source Sans Pro Semibold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Scott\OneDrive\1_EZPZ_Info_Tech\8_Clients\2_VMVpharmacy\print Folder\print Folder\Document fonts\SourceSansPro-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127336
+FileModTime:1549402090
+WeightClass:600
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Semibold
+NameArray:0,Win,1,Source Sans Pro Semibold
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Find Us</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="../css/maps.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+	
+	
+	  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+<!-- InstanceEndEditable -->
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+<header class="header">
+	<div class="logo"><a href="../index.html"><img src="../img/logos/sfmclogo.png" width="220" alt="SFMC Logo"/></a></div>	
+  <div class="book"> 
+    <button class="btn"><a href="book.html">BOOK ONLINE</a></button>
+		<p id="contact"><a href="contact.html">Contact Us</a></p>
+	</div>
+<nav class="nav">
+	<div id="menu-icon">
+	<ul class="mainmenu"><li><a href="../index.html" aria-haspopup="true">Home</a>
+			<ul class="submenu">
+				<!--   <li><a href="#" aria-haspopup="true">NewNavBar</a></li>
+				<li><a href="#" aria-haspopup="true">New</a></li>   -->
+			</ul>
+		</li>
+	  	<li><a href="#" aria-haspopup="true">About US</a>
+			<ul class="submenu">
+				<li><a href="doctors.html" aria-haspopup="true">Our Team</a></li>
+				<li><a href="#" aria-haspopup="true">New</a></li>
+			</ul>
+		</li>
+  		<li><a href="centres.html" aria-haspopup="true">Centres</a>
+			<ul class="submenu">
+				<li><a href="book.html" aria-haspopup="true">Book Online</a></li>
+				<li><a href="maps.html" aria-haspopup="true">Find Us</a></li>
+			</ul>
+		</li>
+		<li><a href="services.html" aria-haspopup="true">Services</a>
+			<ul class="submenu">
+				<li><a href="#" aria-haspopup="true">New</a></li>
+				<li><a href="pharmacy.html" aria-haspopup="true">Pharmacy</a></li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+</nav>
+</header>
+<main class="page"><!-- InstanceBeginEditable name="page" -->
+	<div class="areas"><ul><li><h1><a href="#">Vincentia</a></h1></li><li><h1><a href="#">Worrigee</a></h1></li><li><h1><a href="#">Basin View</a></h1></li>	<li><h1><a href="#">Culburra Beach</a></h1></li></ul>
+			<p>Please select your nearest centre above to view its map.</p>
+	</div>
+	<div class="leaf">
+		<h1>Vincentia Medical Centre</h1>
+	  <div class="textbox"><div class="text"><div class="boxcol"><h2>Phone</h2><p>02 4443 2443</p><br /><h2>Fax</h2><p>02 4443 9657</p></div><br /><h3>Opening Hours</h3><br /><p>Mon: 8:00am - 6:00pm</p><p>Tues: 8:00am - 6:00pm</p><p>Wed: 8:00am - 6:00pm</p><p>Thur: 8:00am - 6:00pm</p><p>Fri: 8:00am - 6:00pm</p><br /><p>Sat: 9:00am - 2:00pm</p><p>Sun: 9:00am - 2:00pm</p><br /><div class="boxcol"><address><p>5 Halloran St</p><p>Vincentia</p><p>NSW 2540</p></address></div></div></div>
+	  <div class="leaflet">
+	    <div id="mapDiv" style="width: 100%; height: 500px"></div>
+	    <script>
+    // position we will use later
+    var lat = -35.073843;
+    var lon = 150.655818;
+    // initialize map
+    map = L.map('mapDiv').setView([lat, lon], 16);
+    // set map tiles source
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+    // add marker to the map
+    marker = L.marker([lat, lon]).addTo(map);
+    // add popup to the marker
+    marker.bindPopup("<b>Vincentia Medical Centre</b><br />5 Holloran St<br />Vincentia NSW 2540").openPopup();
+  </script>
+		</div></div>
+	  <div class="leaf">
+		  <h1>Worrigee Medical Centre</h1>
+		  <div class="textbox"><div class="text"><div class="boxcol"><h2>Phone</h2><p>02 4421 6199</p><br /><h2>Fax</h2><p>02 4421 6799</p></div><br /><h3>Opening Hours</h3><br /><p>Mon: 8:00am - 5:30pm</p><p>Tues: 8:00am - 5:30pm</p><p>Wed: 8:00am - 5:30pm</p><p>Thur: 8:00am - 5:30pm</p><p>Fri: 8:00am - 5:30pm</p><br /><p>Sat: closed</p><p>Sun: closed</p><br /><div class="boxcol"><p>53 Isa Road</p><address><p>Worrigee</p><p>NSW 2540</p></address></div></div></div>
+	  <div class="leaflet">
+	    <div id="mapDiv2" style="width: 100%; height: 500px"></div>
+	    <script>
+    // position we will use later
+    var lat = -34.902856;
+    var lon = 150.622299;
+    // initialize map
+    map = L.map('mapDiv2').setView([lat, lon], 16);
+    // set map tiles source
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+    // add marker to the map
+    marker = L.marker([lat, lon]).addTo(map);
+    // add popup to the marker
+    marker.bindPopup("<b>Worrigee Medical Centre</b><br />53 Isa Rd<br />Worrigee NSW 2540").openPopup();
+  </script>
+	    </div>
+  </div>
+  <div class="leaf">
+	  <h1>Basin View Medical Centre</h1>
+    <div class="textbox"><div class="text"><div class="boxcol"><h2>Phone</h2><p>02 4443 4959</p><br /><h2>Fax</h2><p>02 4443 5019</p></div><br /><h3>Opening Hours</h3><br /><p>Mon: 8:30am - 5:30pm</p><p>Tues: 8:30am - 5:30pm</p><p>Wed: 8:30am - 5:30pm</p><p>Thur: 8:30am - 5:30pm</p><p>Fri: 8:30am - 5:30pm</p><br /><p>Sat: closed</p><p>Sun: closed</p><br /><div class="boxcol"><address><p>3 Tallyann Point Road</p><p>Basin View</p><p>NSW 2540</p></address></div></div></div>
+      <div class="leaflet">
+        <div id="mapDiv3" style="width: 100%; height: 500px"></div>
+        <script>
+    // position we will use later
+    var lat = -35.090885;
+    var lon = 150.562908;
+    // initialize map
+    map = L.map('mapDiv3').setView([lat, lon], 16);
+    // set map tiles source
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+    // add marker to the map
+    marker = L.marker([lat, lon]).addTo(map);
+    // add popup to the marker
+    marker.bindPopup("<b>Basin View Medical Centre</b><br />3 Tallyann Point Rd<br />Basin View NSW 2540").openPopup();
+  </script>
+      </div>
+  </div>
+  <div class="leaf">
+	  <h1>Culburra Beach Medical Centre</h1>
+    <div class="textbox"><div class="text"><div class="boxcol"><h2>Phone</h2><p>02 4447 5430</p><br /><h2>Fax</h2><p>02 4447 5435</p></div><br /><h3>Opening Hours</h3><br /><p>Mon: 8:30am - 5:30pm</p><p>Tues: 8:30am - 5:30pm</p><p>Wed: 8:30am - 5:30pm</p><p>Thur: 8:30am - 5:30pm</p><p>Fri: 8:30am - 5:30pm</p><br /><p>Sat: closed</p><p>Sun: closed</p><br /><div class="boxcol"><address><p>Cnr Prince Edward Ave &amp; Canal St</p><p>Culburra Beach</p><p>NSW 2540</p></address></div></div></div>
+    <div class="leaflet">
+      <div id="mapDiv4" style="width: 100%; height: 500px"></div>
+      <script>
+    // position we will use later
+    var lat = -34.930856;
+    var lon = 150.755366;
+    // initialize map
+    map = L.map('mapDiv4').setView([lat, lon], 16);
+    // set map tiles source
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(map);
+    // add marker to the map
+    marker = L.marker([lat, lon]).addTo(map);
+    // add popup to the marker
+    marker.bindPopup("<b>Culburra Beach Medical Centre</b><br />Crn Prince Edwards Ave & Canal St<br />Culburra Beach NSW 2540").openPopup();
+  </script>
+      </div>
+  </div>
+	<!-- InstanceEndEditable --></main>
+<footer class="foot">
+  <div class="cont">
+	  <ul><li>Map<ul>
+		  <li><a href="doctors.html" aria-haspopup="true">About Us</a></li>
+		  <li><a href="book.html" aria-haspopup="true">Centres</a></li>
+		  <li><a href="#" aria-haspopup="true">Services</a></li>
+		  <li><a href="privacy.html" aria-haspopup="true">Privacy Policy</a></li>
+		  <li><a href="../index.html" aria-haspopup="true">Home</a></li>
+		  </ul></li>
+	  </ul>
+	  		<a href="https://itunes.apple.com/au/app/shoalhaven-family-medical/id1061449426?mt=8" target="_blank"><img src="../img/buttons/appleapp.png" alt="Apple Store"/></a><a href="https://play.google.com/store/apps/details?id=au.com.healthsite.shoalhaven" target="_blank"><img src="../img/buttons/googleapp.png" alt="Google Play Store"/></a>
+	  <p>Find Our app on Google Play or the Apple Store</p>
+	  <div id="sfmclogocont"><img src="../img/logos/logo.gif" alt="SFMC Contact Logo"/></div>
+  </div>
+  <div class="copy"><p>&copy; Shoalhaven Family Medical Centres 2019 | Site Designed &amp; Managed by EZPZ Info Tech <a href="http://www.ezpzinfotech.com.au" target="https://www.ezpzinfotech.com.au">www.ezpzinfotech.com.au</a></p></div>
+</footer>
+</body>
+<!-- InstanceEnd --></html>
